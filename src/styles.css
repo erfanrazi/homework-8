@@ -50,7 +50,7 @@ a:hover {
     rgb(80, 105, 245) 0.3%,
     rgb(100, 173, 241) 90.5%
   );
-  border: 5px solid #b1d4f5;
+  border: 5px solid #092cf7;
   border-radius: 8px;
   position: relative;
   top: 50px;
@@ -61,7 +61,7 @@ a:hover {
   margin: 16px;
 }
 .current-location {
-  border: 5px solid #092cf7;
+  border-color: #030f79;
   color: #3e45ad;
   font-size: 14px;
   text-align: left;
