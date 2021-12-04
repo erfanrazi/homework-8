@@ -46,9 +46,7 @@ a:hover {
   max-width: 600px;
   background: linear-gradient(
     13.6deg,
-    rgb(123, 191, 247) 0.3%,
-    rgb(182, 213, 238) 0.3%,
-    rgb(128, 163, 226) 90.5%
+    rgb(192,255,251) 0.3%
   );
   border: 5px solid #b1d4f5;
   border-radius: 8px;
