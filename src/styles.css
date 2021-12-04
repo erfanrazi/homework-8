@@ -9,6 +9,7 @@
 .third-color {
   background: #59a2f5;
 }
+
 .fourth-color {
   background: #f4f5f0;
 }
@@ -36,6 +37,7 @@ a {
 a:hover {
   color: #5571f0;
 }
+
 .active {
   font-weight: 700;
 }
@@ -44,16 +46,12 @@ a:hover {
 }
 .app-box {
   max-width: 600px;
- background: circle-gradient((
-    14.6deg,
-    rgb(126, 225, 238) 0.3%,
-    rgb(125, 165, 240) 0.3%,
-    rgb(100, 173, 240) 90.5%
-  );
-  border: 5px solid #092cf7;
-  border-radius: 10px;
+  background: radial-gradient(#E1F5FE,#B3E5FC,#4FC3F7);
+  border: 5px solid #01579B;
+  ;
+  border-radius: 8px;
   position: relative;
-  top: 80px;
+  top: 50px;
   margin-bottom: 10px;
 }
 
@@ -61,7 +59,7 @@ a:hover {
   margin: 16px;
 }
 .current-location {
-  border-color: #030f79;
+  border-color: #01579B;
   color: #3e45ad;
   font-size: 14px;
   text-align: left;
@@ -70,7 +68,7 @@ a:hover {
 }
 
 .current-location:hover {
-  background-color: #053897;
+  background-color: #01579B;
   border-color: #5969af;
   color: #f9fcfd;
 }
@@ -96,8 +94,8 @@ a:hover {
 }
 
 .change-city:hover {
-  background-color: #053897;
-  border-color: #5969af;
+  background-color: radial-gradient(#E1F5FE,#B3E5FC,#f390ee);;
+  border-color: #2a335c;
 }
 .align-left {
   text-align: left;
@@ -112,12 +110,12 @@ a:hover {
 }
 
 .icon {
-  color: #0921fc;
+  color: #030f79;
   margin: 16px;
 }
 
 .temperature {
-  color: #0921fc;
+  color: #030f79;
   font-size: 45px;
   margin: 0 16px;
   line-height: 1.2;
