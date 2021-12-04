@@ -60,7 +60,7 @@ a:hover {
 }
 .current-location {
   border-color: #01579B;
-  color: #F44336;
+  color:radial-gradient(#E1F5FE,#B3E5FC,#4FC3F7);
   font-size: 14px;
   text-align: left;
   margin: 2px;
@@ -68,7 +68,7 @@ a:hover {
 }
 
 .current-location:hover {
-  background-color: #01579B;
+  background-color: #E1F5FE;
   border-color: #D32F2F;
   color: #01579B;
 }
