@@ -45,10 +45,10 @@ a:hover {
 .app-box {
   max-width: 600px;
  background: linear-gradient(
-    13.6deg,
+    14.6deg,
     rgb(126, 225, 238) 0.3%,
-    rgb(80, 105, 245) 0.3%,
-    rgb(100, 173, 241) 90.5%
+    rgb(125, 165, 240) 0.3%,
+    rgb(100, 173, 240) 90.5%
   );
   border: 5px solid #092cf7;
   border-radius: 8px;
