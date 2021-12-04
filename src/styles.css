@@ -44,16 +44,16 @@ a:hover {
 }
 .app-box {
   max-width: 600px;
- background: linear-gradient(
+ background: circle-gradient((
     14.6deg,
     rgb(126, 225, 238) 0.3%,
     rgb(125, 165, 240) 0.3%,
     rgb(100, 173, 240) 90.5%
   );
   border: 5px solid #092cf7;
-  border-radius: 8px;
+  border-radius: 10px;
   position: relative;
-  top: 50px;
+  top: 80px;
   margin-bottom: 10px;
 }
 
