@@ -1,0 +1,180 @@
+.first-color {
+  background: #f9fcfd;
+}
+
+.second-color {
+  background: #3662f5;
+}
+
+.third-color {
+  background: #4362ec;
+}
+
+.fourth-color {
+  background: #fed8a7;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: #1b2af7;
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0 16px;
+}
+
+hr {
+  color: #1b2af7;
+}
+
+a {
+  color: #1b2af7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5c8fee;
+}
+
+.active {
+  font-weight: 700;
+}
+.active:hover {
+  text-decoration: none;
+}
+.app-box {
+  max-width: 600px;
+  background: linear-gradient(
+    13.6deg,
+    rgb(42, 152, 241) 0.3%,
+    rgb(182, 213, 238) 0.3%,
+    rgb(163, 175, 240) 90.5%
+  );
+  border: 15px solid #c9eff9;
+  border-radius: 8px;
+  position: relative;
+  top: 50px;
+  margin-bottom: 10px;
+}
+
+.col-location-change {
+  margin: 16px;
+}
+.current-location {
+  border-color: #4657f1;
+  color: #1b2af7;
+  font-size: 14px;
+  text-align: left;
+  margin: 2px;
+  width: 97%;
+}
+
+.current-location:hover {
+  background-color: #3a73df;
+  border-color: #2d51f3;
+  color: #f9fcfd;
+}
+
+.city-search {
+  display: inline;
+  font-size: 14px;
+  width: 53%;
+  margin: 2px;
+  margin-left: 0;
+  border-radius: 8px;
+}
+
+.change-city {
+  font-size: 14px;
+  text-align: center;
+  background-color: #3a73df;
+  border-color: #2d51f3;
+  margin: 2px;
+  padding: 6px 0;
+  width: 42%;
+  border-radius: 8px;
+}
+
+.change-city:hover {
+  background-color: #2d61ee;
+  border-color: #2352eb;
+}
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.icon {
+  color: #3346f7;
+  margin: 16px;
+}
+
+.temperature {
+  color: #4556e7;
+  font-size: 45px;
+  margin: 0 16px;
+  line-height: 1.2;
+}
+
+.units {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.weather-details {
+  margin: 16px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.weather-recommendation {
+  background: #fed8a799;
+  border: 2px solid #fed8a7;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 30px;
+  margin: 16px;
+  margin-bottom: 0;
+  padding: 5px 20px;
+}
+
+.date-time {
+  margin: 16px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.forecast {
+  margin: 16px 0;
+}
+
+.forecast-date {
+  font-weight: bold;
+}
+
+.forecast-icon {
+  width: 50px;
+}
+
+.forecast-max {
+  font-weight: normal;
+}
+
+.forecast-min {
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.footer {
+  text-align: center;
+  padding: 75px;
+}

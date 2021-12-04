@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/1b871e17e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container app-box">
+      <div class="row">
+        <div class="col align-left col-location-change">
+          <button
+            class="btn btn-outline-primary current-location"
+            id="current-location"
+          >
+            <i class="fas fa-map-marker-alt"></i> Current location
+          </button>
+
+          <form id="city-search">
+              <input
+                type="search"
+                class="form-control city-search"
+                id="city-search-input"
+                placeholder="Enter a city"
+                autocomplete="off"
+                autofocus="on"
+              />
+              <input
+                type="submit"
+                value="🔎 Search"
+                class="submit"
+                class="btn btn-primary change-city"
+              />
+            </form>
+          </form>
+        </div>
+
+        <div class="col align-right icon">
+          <img
+            src="https://openweathermap.org/img/wn/10d@2x.png"
+            alt="rain"
+            id="weather-icon"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col align-left">
+          <h1 id="city-name">Tehran</h1>
+          <p class="date-time">
+            <span id="current-day"> Friday, 18.06.2021 </span>
+            <br />
+            <span id="current-time">12:00 UTC +2 </span>
+            <br />
+            <span id="weather-description">Sunny</span>
+          </p>
+        </div>
+        <div class="col align-right">
+          <div class="temperature">
+            <strong id="temp">30</strong><strong id="active-unit">°C </strong> |
+            <a href="#" id="inactive-unit">°F</a>
+          </div>
+          <p class="weather-details">
+            Humidity: <span id="humidity">0</span>%
+            <br />
+            Wind: <span id="windspeed">2</span> km/h
+          </p>
+        </div>
+      </div>
+
+      <hr />
+      <div class="row forecast" id="forecast"></div>
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/ydanzl/weather-app" target="blank"
+        >OpenSource Code</a
+      >
+      Coded By Elham Akbari
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
