@@ -60,7 +60,7 @@ a:hover {
 }
 .current-location {
   border-color: #01579B;
-  color: #3e45ad;
+  color: #F44336;
   font-size: 14px;
   text-align: left;
   margin: 2px;
@@ -69,13 +69,13 @@ a:hover {
 
 .current-location:hover {
   background-color: #01579B;
-  border-color: #5969af;
-  color: #f9fcfd;
+  border-color: #D32F2F;
+  color: #01579B;
 }
 
 .city-search {
   display: inline;
-  font-size: 14px;
+  font-size: 15px;
   width: 53%;
   margin: 2px;
   margin-left: 0;
@@ -85,8 +85,8 @@ a:hover {
 .change-city {
   font-size: 14px;
   text-align: center;
-  background-color: #030f79;
-  border-color: #3e45ad;
+  background-color:radial-gradient(#E1F5FE,#B3E5FC,#f390ee);
+  border-color: #01579B;
   margin: 2px;
   padding: 6px 0;
   width: 42%;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .change-city:hover {
-  background-color: radial-gradient(#E1F5FE,#B3E5FC,#f390ee);;
+  background-color: radial-gradient(#E1F5FE,#B3E5FC,#f390ee);
   border-color: #2a335c;
 }
 .align-left {
