@@ -3,11 +3,11 @@
 }
 
 .second-color {
-  background: #3662f5;
+  background: #839bec;
 }
 
 .third-color {
-  background: #4362ec;
+  background: #425ac5;
 }
 
 .fourth-color {
@@ -19,23 +19,23 @@ body {
 }
 
 h1 {
-  color: #1b2af7;
+  color: #0921fc;
   font-weight: 700;
   font-size: 45px;
   margin: 0 16px;
 }
 
 hr {
-  color: #7f87f7;
+  color: #cccffc;
 }
 
 a {
-  color: #606af8;
+  color: #8990f5;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5c8fee;
+  color: #8670e9;
 }
 
 .active {
@@ -50,9 +50,9 @@ a:hover {
     13.6deg,
     rgb(123, 191, 247) 0.3%,
     rgb(182, 213, 238) 0.3%,
-    rgb(88, 143, 243) 90.5%
+    rgb(128, 163, 226) 90.5%
   );
-  border: 5px solid #655bff;
+  border: 5px solid #b1d4f5;
   border-radius: 8px;
   position: relative;
   top: 50px;
@@ -63,8 +63,8 @@ a:hover {
   margin: 16px;
 }
 .current-location {
-  border-color: #5e6df0;
-  color: #0913a3;
+  border-color: #030f79;
+  color: #3e45ad;
   font-size: 14px;
   text-align: left;
   margin: 2px;
@@ -72,8 +72,8 @@ a:hover {
 }
 
 .current-location:hover {
-  background-color: #3a73df;
-  border-color: #2d51f3;
+  background-color: #053897;
+  border-color: #5969af;
   color: #f9fcfd;
 }
 
@@ -89,8 +89,8 @@ a:hover {
 .change-city {
   font-size: 14px;
   text-align: center;
-  background-color: #5f94f7;
-  border-color: #2d51f3;
+  background-color: #030f79;
+  border-color: #3e45ad;
   margin: 2px;
   padding: 6px 0;
   width: 42%;
@@ -98,8 +98,8 @@ a:hover {
 }
 
 .change-city:hover {
-  background-color: #2d61ee;
-  border-color: #2352eb;
+  background-color: #053897;
+  border-color: #5969af;
 }
 .align-left {
   text-align: left;
@@ -114,12 +114,12 @@ a:hover {
 }
 
 .icon {
-  color: #3346f7;
+  color: #0921fc;
   margin: 16px;
 }
 
 .temperature {
-  color: #4556e7;
+  color: #0921fc;
   font-size: 45px;
   margin: 0 16px;
   line-height: 1.2;
