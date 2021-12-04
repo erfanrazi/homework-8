@@ -30,14 +30,13 @@ hr {
 }
 
 a {
-  color: #8990f5;
+  color: #0921fc;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8670e9;
+  color: #5571f0;
 }
-
 .active {
   font-weight: 700;
 }
