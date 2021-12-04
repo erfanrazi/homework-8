@@ -47,7 +47,7 @@ a:hover {
 .app-box {
   max-width: 600px;
   background: radial-gradient(#E1F5FE,#B3E5FC,#4FC3F7);
-  border: 5px solid #03A9F4;
+  border: 5px solid #00B0FF;
   ;
   border-radius: 8px;
   position: relative;
@@ -86,7 +86,7 @@ a:hover {
   font-size: 14px;
   text-align: center;
   background-color:radial-gradient(#E1F5FE,#B3E5FC,#f390ee);
-  border-color: #01579B;
+  border-color: #00B0FF;
   margin: 2px;
   padding: 6px 0;
   width: 42%;
