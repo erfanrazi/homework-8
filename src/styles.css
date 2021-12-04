@@ -11,7 +11,7 @@
 }
 
 .fourth-color {
-  background: #fed8a7;
+  background: #f4f5f0;
 }
 
 body {
@@ -26,11 +26,11 @@ h1 {
 }
 
 hr {
-  color: #1b2af7;
+  color: #7f87f7;
 }
 
 a {
-  color: #1b2af7;
+  color: #606af8;
   text-decoration: none;
 }
 
@@ -48,11 +48,12 @@ a:hover {
   max-width: 600px;
   background: linear-gradient(
     13.6deg,
-    rgb(42, 152, 241) 0.3%,
+    rgb(123, 191, 247) 0.3%,
     rgb(182, 213, 238) 0.3%,
-    rgb(163, 175, 240) 90.5%
+    rgb(88, 143, 243) 90.5%,
+    rgb(245, 157, 248) 90.5%
   );
-  border: 15px solid #c9eff9;
+  border: 5px solid #655bff;
   border-radius: 8px;
   position: relative;
   top: 50px;
@@ -63,8 +64,8 @@ a:hover {
   margin: 16px;
 }
 .current-location {
-  border-color: #4657f1;
-  color: #1b2af7;
+  border-color: #5e6df0;
+  color: #0913a3;
   font-size: 14px;
   text-align: left;
   margin: 2px;
@@ -89,7 +90,7 @@ a:hover {
 .change-city {
   font-size: 14px;
   text-align: center;
-  background-color: #3a73df;
+  background-color: #5f94f7;
   border-color: #2d51f3;
   margin: 2px;
   padding: 6px 0;
@@ -137,8 +138,8 @@ a:hover {
 }
 
 .weather-recommendation {
-  background: #fed8a799;
-  border: 2px solid #fed8a7;
+  background: #ebe0d399;
+  border: 2px solid #f3eadf;
   border-radius: 8px;
   text-align: center;
   line-height: 30px;
@@ -176,5 +177,5 @@ a:hover {
 
 .footer {
   text-align: center;
-  padding: 75px;
+  padding: 65px;
 }
