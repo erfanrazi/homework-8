@@ -46,17 +46,16 @@ a:hover {
 }
 .app-box {
   max-width: 600px;
-  background: hsla(22, 63%, 26%, 1);
+  background: hsla(208, 85%, 52%, 1);
 
-background: linear-gradient(180deg, hsla(22, 63%, 26%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(116, 23%, 74%, 1) 63%, hsla(31, 100%, 74%, 1) 100%, hsla(27, 90%, 73%, 1) 100%);
+background: linear-gradient(180deg, hsla(208, 85%, 52%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(198, 82%, 68%, 1) 45%, hsla(27, 90%, 73%, 1) 83%, hsla(12, 100%, 75%, 1) 100%);
 
-background: -moz-linear-gradient(180deg, hsla(22, 63%, 26%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(116, 23%, 74%, 1) 63%, hsla(31, 100%, 74%, 1) 100%, hsla(27, 90%, 73%, 1) 100%);
+background: -moz-linear-gradient(180deg, hsla(208, 85%, 52%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(198, 82%, 68%, 1) 45%, hsla(27, 90%, 73%, 1) 83%, hsla(12, 100%, 75%, 1) 100%);
 
-background: -webkit-linear-gradient(180deg, hsla(22, 63%, 26%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(116, 23%, 74%, 1) 63%, hsla(31, 100%, 74%, 1) 100%, hsla(27, 90%, 73%, 1) 100%);
+background: -webkit-linear-gradient(180deg, hsla(208, 85%, 52%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(198, 82%, 68%, 1) 45%, hsla(27, 90%, 73%, 1) 83%, hsla(12, 100%, 75%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6E3819", endColorstr="#6CD4D4", GradientType=1 );
-  border: 5px solid #00B0FF;
-  ;
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B8BED", endColorstr="#6CD4D4", GradientType=1 );
+  
   border-radius: 8px;
   position: relative;
   top: 50px;
