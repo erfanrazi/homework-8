@@ -46,7 +46,15 @@ a:hover {
 }
 .app-box {
   max-width: 600px;
-  background: radial-gradient(#f9fafa,#cbe8f5,#99d7f3 ,#dcaff1);
+  background: hsla(22, 63%, 26%, 1);
+
+background: linear-gradient(180deg, hsla(22, 63%, 26%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(116, 23%, 74%, 1) 63%, hsla(31, 100%, 74%, 1) 100%, hsla(27, 90%, 73%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(22, 63%, 26%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(116, 23%, 74%, 1) 63%, hsla(31, 100%, 74%, 1) 100%, hsla(27, 90%, 73%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(22, 63%, 26%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(116, 23%, 74%, 1) 63%, hsla(31, 100%, 74%, 1) 100%, hsla(27, 90%, 73%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6E3819", endColorstr="#6CD4D4", GradientType=1 );
   border: 5px solid #00B0FF;
   ;
   border-radius: 8px;
