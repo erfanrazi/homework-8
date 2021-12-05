@@ -46,15 +46,15 @@ a:hover {
 }
 .app-box {
   max-width: 600px;
-  background: hsla(208, 85%, 52%, 1);
+ background: linear-gradient(78deg, #E7F7FA 34%, #0D7FF4 96%);
 
-background: linear-gradient(180deg, hsla(208, 85%, 52%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(198, 82%, 68%, 1) 45%, hsla(27, 90%, 73%, 1) 83%, hsla(12, 100%, 75%, 1) 100%);
+background: -webkit-linear-gradient(78deg, #E7F7FA 34%, #0D7FF4 96%);
 
-background: -moz-linear-gradient(180deg, hsla(208, 85%, 52%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(198, 82%, 68%, 1) 45%, hsla(27, 90%, 73%, 1) 83%, hsla(12, 100%, 75%, 1) 100%);
+background: -moz-linear-gradient(78deg, #E7F7FA 34%, #0D7FF4 96%);
 
-background: -webkit-linear-gradient(180deg, hsla(208, 85%, 52%, 1) 0%, hsla(180, 55%, 63%, 1) 0%, hsla(198, 82%, 68%, 1) 45%, hsla(27, 90%, 73%, 1) 83%, hsla(12, 100%, 75%, 1) 100%);
+background: -o-linear-gradient(78deg, #E7F7FA 34%, #0D7FF4 96%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B8BED", endColorstr="#6CD4D4", GradientType=1 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='E7F7FA', endColorstr='#0D7FF4',GradientType=1 );
   
   border-radius: 8px;
   position: relative;
